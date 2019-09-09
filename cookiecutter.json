@@ -1,0 +1,12 @@
+{
+  "project_name": "My Dash application",
+  "repo_name": "{{ cookiecutter.project_name.lower()|replace(' ', '-') }}",
+  "package_name": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_') }}",
+  "author_name": "Your name",
+  "author_email": "you@are.aweso.me",
+  "author_github_username": "your_github_username",
+  "description": "A short description of the project.",
+  "version": "0.1.0",
+  "license": ["apache-2.0", "bsd-2-clause", "bsd-3-clause", "cc0-1.0", "cc-by-4.0", "cc-by-sa-4.0", "wtfpl", "gpl-2.0",
+    "gpl-3.0", "mit", "proprietary"]
+}
