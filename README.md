@@ -2,6 +2,13 @@
 
 A cookiecutter to generate Dash app skeletons.
 
+* `Makefile` to generate Docker image (`make image`)
+* Bootstrap integration and navbar chrome
+* Dockerfile for deployment on ECS (see [instructions](https://www.chrisvoncsefalvay.com/2019/08/28/deploying-dash-on-amazon-ecs/))
+* `DangerouslySetInnerHTML` included to allow you to inject pure HTML
+* A choice of auto-generated licenses
+
+
 ## Usage
 
 To build your Dash app, use
