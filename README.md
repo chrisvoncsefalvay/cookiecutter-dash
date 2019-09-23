@@ -1,5 +1,7 @@
 # cookiecutter-dash
 
+[! https://img.shields.io/badge/Created_at-Starschema-red]
+
 A cookiecutter to generate Dash app skeletons.
 
 * `Makefile` to generate Docker image (`make image`)
@@ -31,3 +33,15 @@ Parameters:
 | `description`            	|                        	| Your project's short description            	|
 | `version`                	| `0.1.0`                	| Project version                             	|
 | `license`                	|                        	| Choice of a number of licenses.             	|
+
+
+## Support
+
+There's a [dedicated discussion thread on the Plotly Discourse server for `cookiecutter-dash`](https://community.plot.ly/t/the-fastest-way-to-get-started-building-a-dash-app-cookiecutter-dash/28568). For questions that aren't issues or bugs, you might want to go there. 
+
+If you detect a bug, please file an issue under the Issues tab.
+
+
+## Contributing
+
+Contributions are welcome! Go to the Issues tab to see where we need help. If you have a feature suggestion, please propose it as an issue before creating a pull request, so that it can be properly discussed. Thanks!
