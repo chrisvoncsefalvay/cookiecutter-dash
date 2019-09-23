@@ -1,6 +1,6 @@
 # cookiecutter-dash
 
-![](https://img.shields.io/badge/Created_at-Starschema-red)
+![Proudly created at Starschema](https://img.shields.io/badge/Created_at-Starschema-red) ![GitHub top language](https://img.shields.io/github/languages/top/chrisvoncsefalvay/cookiecutter-dash) ![GitHub All Releases](https://img.shields.io/github/downloads/chrisvoncsefalvay/cookiecutter-dash/total) ![GitHub issues](https://img.shields.io/github/issues/chrisvoncsefalvay/cookiecutter-dash) ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/chrisvoncsefalvay/cookiecutter-dash) ![GitHub forks](https://img.shields.io/github/forks/chrisvoncsefalvay/cookiecutter-dash?label=Fork%20me%21&style=social) ![Twitter Follow](https://img.shields.io/twitter/follow/chrisvcsefalvay?style=social)
 
 A cookiecutter to generate Dash app skeletons.
 
