@@ -1,6 +1,6 @@
 # cookiecutter-dash
 
-!()[https://img.shields.io/badge/Created_at-Starschema-red]
+![](https://img.shields.io/badge/Created_at-Starschema-red)
 
 A cookiecutter to generate Dash app skeletons.
 
