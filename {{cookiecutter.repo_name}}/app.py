@@ -1,7 +1,6 @@
 import flask
 import dash
-import dash_dangerously_set_inner_html as dsi
-import dash_core_components as dcc
+import dash_bootstrap_components as dbc
 import dash_html_components as html
 import plotly.graph_objs as gobs
 
@@ -23,26 +22,25 @@ app = dash.Dash(__name__,
 # HEADER
 # ======
 
-header = """
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">{{cookiecutter.project_name}}</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-    </ul>
-  </div>
-</nav>"""
-
+header = dbc.NavbarSimple(
+    children=[
+        dbc.NavItem(dbc.NavLink("Page 1", href="#")),
+        dbc.DropdownMenu(
+            children=[
+                dbc.DropdownMenuItem("More pages", header=True),
+                dbc.DropdownMenuItem("Page 2", href="#"),
+                dbc.DropdownMenuItem("Page 3", href="#"),
+            ],
+            nav=True,
+            in_navbar=True,
+            label="More",
+        ),
+    ],
+    brand="{{cookiecutter.project_name}}",
+    brand_href="#",
+    color="primary",
+    dark=True
+)
 
 
 # COMPONENTS
@@ -61,7 +59,7 @@ header = """
 # ==========
 
 app.layout = html.Div([
-    dsi.DangerouslySetInnerHTML(header)
+    header
 ])
 
 if __name__ == '__main__':
